@@ -1,0 +1,106 @@
+/* main container which holds all the elements */
+.main{
+    height: 99%;
+    width: 99%;
+}
+/* it will show the upper menu icons on mobile view */
+.resp{
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 21em;
+    position: absolute;
+    top: 0;
+    padding: 0 1em;
+}
+/* styling the upper menu logo */
+.name{
+    font-weight: 600;
+    font-size: 26px;
+}
+/* styling the lines of hamburger menu */
+.line1{
+    width: 15px;
+    background-color: #ff3333;
+    height: 2px;
+    margin: 8px 0;
+    border-radius: 2px;
+    display: block;
+}
+.w2{
+    width: 25px;
+   
+}
+.w3{
+    width: 20px;
+}
+
+/* styling the cart icon */
+.carticon{
+    width: 30px;
+    height: 30px;
+}
+/* this will hide the navigation menu at start in mobile view */
+.navnodisplay{
+    display: flex;
+    width: 0;
+    visibility: hidden;
+}
+/* styling the navigation menu */
+.navbar{
+    display: flex;
+    visibility: visible;
+    position: absolute;
+    top: 5em;
+    background-color: white;
+    width: 140px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    z-index: 1;
+    height: 90%;
+    transition: all 180ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+/* it will holds the heading and paragraph. */
+.uppercontent{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    width: 99%;
+    height: 7rem;
+}
+/* giving the width which holds the uppercontent and cards */
+.content{
+    width: 99%;
+}
+/* styling the heading inside uppercontent */
+.heading{
+    font-size: 36px;
+    align-self: baseline;
+    padding: 0 0.5em;
+}
+/* styling the para inside uppercontent */
+.para{
+    position: absolute;
+    top: 43rem;
+    left: 20px;
+    width: 21em;
+    margin: 0;
+}
+/* styling the cards container to holds the cards */
+.cards{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 23em;
+    justify-content: center;
+}
+/* this is used for hiding the 5th card in mobile view */
+.h{
+    display: none;
+}
+/* styling the cards */
+.card{
+    margin: 0.6em 0.3em;
+    padding: 2em 1.4em;;
+}

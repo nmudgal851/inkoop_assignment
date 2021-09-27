@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- below css of for styling the desktop view. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- below css of for styling the mobile view. -->
+    <link rel="stylesheet" media="screen and (max-width: 850px)" href="responsive.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- main section where all the elements are located. -->
+    <section class="main">
+        <!-- the below element only appear in responsive layout. -->
+    <div class="resp">
+        <div class="burger" id="burger">
+        <div class="line1"></div>
+        <div class="line1 w2"></div>
+        <div class="line1 w3"></div>
+        </div>
+        <span class="name">Lorem</span>
+        <img class="carticon" src="./images/cart.png" alt="cart">
+    </div>
+    <!-- navigation bar -->
+    <div class="navbar navnodisplay" id="navbar">
+        <div class="logo">
+            <h1>Lorem Ipsum</h1>
+        </div>
+        <ul class="navmenu">
+            <li class="navitem">About</li>
+            <li class="navitem">Services</li>
+            <li class="navitem">Cuisine</li>
+            <li class="navitem">Gallery</li>
+            <li class="navitem">Contact</li>
+            <li class="navitem">Book</li>
+        </ul>
+        <button type="submit" class="btn">Cart</button>
+    </div>
+    <!-- main content of the page will start from here. -->
+        <div class="content">
+            <div class="uppercontent">
+                <h1 class="heading">What are you having for Lunch?</h1>
+                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur rem excepturi,
+                    rerum
+                    totam quod nesciunt nisi assumenda
+                    <span class="line"></span>
+                </p>
+            </div>
+            <!-- food images below in the form of card. -->
+            <div class="cards">
+                <div class="card">
+                    <img class="images" src="./images/tacos.jpg" alt="tacos">
+                    <p>Mexican Taco</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="./images/pizza.jpg" alt="pizza">
+                    <p>Farmhouse Pizza</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="./images/Moist-Chicken-Burgers.jpg" alt="Moist-Chicken-Burgers">
+                    <p>Chicken Burger</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="./images/loaded-nachos.jpg" alt="loaded-nachos">
+                    <p>Loaded Nachos</p>
+                </div>
+                <div class="card h">
+                    <img class="images" src="./images/hakka-noodles.jpg" alt="hakka-noodles">
+                    <p>Hakka Noodles</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+<!-- the below javascript has been added to give the burger menu functionality -->
+<script src="./function.js"></script>
+
+</html>
